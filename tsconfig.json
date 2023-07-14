@@ -18,8 +18,9 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false
   },
-  "include": ["src"],
+  "include": ["src", "relay.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
